@@ -2,23 +2,35 @@ import React from "react";
 import "./style.css";
 import Tilt from "react-tilt";
 
-function FriendCard(props) {
-    return (
+const FriendCard = props => (
         <Tilt
             className="Tilt"
-            options={{max: 35,
-                    revers: true,
-            scale: 1,
-            glare: true}}
+            data-tilt-glare="true"
+            options={{
+                max: 35, reverse: true, perspective: 200, scale: 1.2,easing: "cubic-bezier(.03,.98,.52,.99)", glare: true,
+                maxGlare: 1
+            }}
             style={{height: 250, width: 250}}
         >
             <div className="Tilt-inner">
                 <div className="card" onClick={e => props.clickEvent(e.target.src)}>
-                    <img className="card-img-top card-height" src={props.image} alt={props.name} />
+                    <img className="card-img-top card-height" src={props.name} alt="" />
                 </div>
             </div>
         </Tilt>
     );
-}
+
 
 export default FriendCard;
+/*import React from 'react';
+import './style.css';
+
+// the onClick function is defined as a callback so that the clicked elements value
+// can be passed to props.clickEvent to check if the image has been clicked or not
+const Character = props => (
+    <div className="card" onClick={e => props.clickEvent(e.target.src)}>
+        <img className="card-img-top card-height" src={props.name} alt="" />
+    </div>
+);
+
+export default Character;*/

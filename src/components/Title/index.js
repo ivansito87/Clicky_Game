@@ -1,8 +1,14 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
-function Title(props) {
-  return <h1 className="title">{props.children}</h1>;
-}
+const Navbar = props => (
+    <div className="navbar ">
+      <div>Clicky Game</div>
+      <div className={props.navMsgColor}>{props.navMessage}</div>
+      <div>
+        Score: {props.score} <span className="pipe">|</span> High Score: {props.highScore}
+      </div>
+    </div>
+);
 
-export default Title;
+export default Navbar;

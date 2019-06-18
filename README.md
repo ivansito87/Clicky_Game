@@ -14,7 +14,7 @@ This is a simple memorization and click game. The object of the game is to click
 
 ## Screenshot:
 
-![Screenshot of game](https://images.unsplash.com/photo-1492044715545-15ddedd84e5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)
+![Screenshot of game](./src/images/clickygamescreenshot.png)
 
 ## How to install and Run:
 - `git clone` the repo

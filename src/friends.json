@@ -1,62 +1,38 @@
 [
   {
-    "id": 1,
-    "name": "SpongeBob",
     "image": "https://image.tmdb.org/t/p/w185/r5IqhwZ61OuKlsyDwvXWyWQZK30.jpg"
   },
   {
-    "id": 2,
-    "name": "Mr. Krabs",
     "image": "https://imgix.ranker.com/user_node_img/50061/1001210474/original/d-photo-u1?w=650&q=50&fm=pjpg&fit=crop&crop=faces"
   },
   {
-    "id": 3,
-    "name": "Squidward",
     "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/poc-1532612649.jpg?crop=0.988867059593975xw:1xh;center,top&resize=480:*"
   },
   {
-    "id": 4,
-    "name": "Dexter",
     "image": "https://www.picclickimg.com/d/l400/pict/263951135446_/Frozen-Dvd-2014.jpg"
   },
   {
-    "id": 5,
-    "name": "Courage",
     "image": "http://images4.fanpop.com/image/photos/19200000/Peter-Pan-Two-Disc-Platinum-Edition-Disney-DVD-Cover-walt-disney-characters-19286336-1148-1592.jpg"
   },
   {
-    "id": 6,
-    "name": "Doug Funnie",
     "image": "https://goodmovieslist.com/article-images/best-disney-movies.jpg"
   },
   {
-    "id": 7,
-    "name": "Bugs Bunny",
     "image": "https://d3fa68hw0m2vcc.cloudfront.net/b46/97946236.jpeg"
   },
   {
-    "id": 8,
-    "name": "Johnny Bravo",
     "image": "https://www.scholastic.com/100movies/assets/60_junglebook_00.jpg"
   },
   {
-    "id": 9,
-    "name": "Tommy Pickles",
     "image": "https://resizing.flixster.com/rz6uLQ_mpj8spj_8IhuVyOV3wZ8=/206x305/v1.dDszMjA1Nzg7ajsxODA5MzsxMjAwOzE5ODk7Mjg3Mw"
   },
   {
-    "id": 10,
-    "name": "Rocko",
     "image": "https://vignette.wikia.nocookie.net/disney/images/8/89/Wreck_It_Ralph_Poster.jpeg/revision/latest?cb=20181231152041"
   },
   {
-    "id": 11,
-    "name": "Captain Planet",
     "image": "https://www.mainstreetroswell.org/wpdocs/wp-content/uploads/2016/05/GoodDino_EyeToEye.jpg"
   },
   {
-    "id": 12,
-    "name": "Ickis",
     "image": "https://cdn.europosters.eu/image/1300/posters/brave-teaser-i12671.jpg"
   }
 ]

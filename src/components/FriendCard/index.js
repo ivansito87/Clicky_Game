@@ -8,7 +8,7 @@ const FriendCard = props => (
             data-tilt-glare="true"
             options={{
                 max: 35, reverse: true, perspective: 200, scale: 1.2,easing: "cubic-bezier(.03,.98,.52,.99)", glare: true,
-                maxGlare: 1
+                maxGlare: .7
             }}
             style={{height: 250, width: 250}}
         >

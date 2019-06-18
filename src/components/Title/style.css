@@ -1,13 +1,16 @@
 
+
 .navbar {
-  background: #ffa700;
-  min-height: 70px;
-  font-size: 18px;
-  padding: 20px 0;
+  background: #dc2c2c;
+  min-height: 80px;
+  font-size: 30px !important;
+  padding: 15px 0;
   width: 100%;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  color: #fff;
+  box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(222, 222, 222, 0.22);
+  color: #eee;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
   z-index: 99;
   white-space: nowrap;
 }
@@ -69,12 +72,14 @@
     display: flex;
     position: fixed;
     justify-content: space-around;
-    font-size: calc(10px + 14 * (100vw - 320px) / 800);
+    /*font-size: calc(14px + 18 * (100vw - 320px) / 800);*/
   }
 
   .navbar div {
     margin-bottom: 0;
     text-align: center;
     width: 33.333%;
+    font-size: 35px;
+
   }
 }

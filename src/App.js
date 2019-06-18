@@ -4,6 +4,7 @@ import Wrapper from "./components/Wrapper/index.js";
 import Title from "./components/Title";
 import friends from "./friends.json";
 import Banner from "./components/Banner/Banner.js";
+import Footer from './components/Footer/Footer'
 
 const arrayOfUrl = [];
 
@@ -161,6 +162,7 @@ class App extends Component {
           characters={state.allCharacters}
           clickEvent={this.clickEvent}
         />
+        <Footer />
       </div>
     );
   }

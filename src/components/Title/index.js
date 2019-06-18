@@ -2,8 +2,8 @@ import React from 'react';
 import './style.css';
 
 const Navbar = props => (
-    <div className="navbar ">
-      <div>Clicky Game</div>
+    <div className="navbar">
+      <div>Disney Movies</div>
       <div className={props.navMsgColor}>{props.navMessage}</div>
       <div>
         Score: {props.score} <span className="pipe">|</span> High Score: {props.highScore}
